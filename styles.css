@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    border:2px solid black;
+    margin: 3rem 5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box2{
+    display: flex;
+    border:2px solid black;
+    margin: 3rem 5rem;
+    border-radius: 5px;
+    padding:1.5rem 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box2 button{
+    margin:1rem;
+    border:1px solid black;
+}
